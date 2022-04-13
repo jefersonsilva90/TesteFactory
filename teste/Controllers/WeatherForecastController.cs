@@ -80,7 +80,7 @@ namespace teste.Controllers
                  string body = JsonConvert.SerializeObject(bodyPay);
                  var result = await httpClient.PostAsync( "vote", new  StringContent(body));
                  responseBody = await result.Content.ReadAsStringAsync();
-                 Console.WriteLine(responseBody);
+                 Console.WriteLine(responseBody + "Total Votos: " + total);
                  await Task.Delay(1000);
 
                 if (i == 998)
