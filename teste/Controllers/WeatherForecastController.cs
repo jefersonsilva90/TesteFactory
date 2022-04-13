@@ -66,6 +66,7 @@ namespace teste.Controllers
          {
              var responseBody = "";
              int i = 0;
+            int total = 0;
              while (i < 100)
              {
                  var httpClient = _clientFactory.CreateClient("votacao");
@@ -89,9 +90,10 @@ namespace teste.Controllers
                 }
 
                 i++;
+                total++;
              }
   
-             return Ok(responseBody);
+             return Ok(responseBody + "Total Votos: " + total);
          }
 
     }
