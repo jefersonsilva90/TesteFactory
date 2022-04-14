@@ -32,6 +32,8 @@ namespace teste
             services.AddTransient<IService, ServicoA>();
             services.AddTransient<IService, ServicoB>();
             services.AddSingleton<Integrador>();
+            services.AddTransient<VotacaoService>();
+            services.AddTransient<TokenService>();
             
             services.AddHttpClient("keycloack", httpClient =>
             {

@@ -57,4 +57,3 @@
 /Users/jefersonsilva/Projects/TesteFactory/teste/bin/Debug/netcoreapp3.1/Microsoft.IdentityModel.Tokens.dll
 /Users/jefersonsilva/Projects/TesteFactory/teste/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
 /Users/jefersonsilva/Projects/TesteFactory/teste/bin/Debug/netcoreapp3.1/System.IdentityModel.Tokens.Jwt.dll
-/Users/jefersonsilva/Projects/TesteFactory/teste/obj/Debug/netcoreapp3.1/teste.csproj.CopyComplete

@@ -14,7 +14,7 @@
         "outputPath": "/Users/jefersonsilva/Projects/TesteFactory/teste/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/jefersonsilva/.config/NuGet/NuGet.Config"
+          "/Users/jefersonsilva/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
